@@ -1,0 +1,571 @@
+html,body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: table;
+  width: 100%;
+  background: #141E30;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 100%;
+  margin: 0%;
+  z-index: -7;
+}
+
+
+
+
+
+
+
+.bandeau {    
+  background: #104363;  
+  padding-top: 1%;
+  margin-bottom: 5%;
+  width: 100%;
+  height: 50%;
+    
+}
+ 
+ 
+.bandeau h2 {
+  
+  height: 40%;
+  text-align: center;
+  font-size: 300%;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  color: antiquewhite;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 3.4px;
+  word-spacing: -0.2px;
+  text-decoration: underline solid rgb(224, 212, 212);
+  font-variant: normal;
+  text-transform: uppercase;
+}
+
+
+
+
+.bandeau p {
+  margin-bottom: 12%;
+  height: 40%;
+  font-size: 200%;
+  color:white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+.reservation {
+  margin-top: 1%;
+  padding: 1%;
+  width: 10%;
+  height: 40%;
+  border-radius: 5%;
+  border: none;
+  color: antiquewhite;
+  background: #360033;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0b8793, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-color: white;
+  font-weight: bold;
+  font-size: 80%;
+  margin-left: 3%;
+}
+
+.reservation:hover {
+  opacity: 0.7;
+  color: #c2988b;
+  cursor: pointer;
+}
+
+/*Menu*/
+
+.nav {
+  
+    width: 100%;
+    height: 200%;
+    float: right;
+    
+    
+  }
+  
+
+
+ 
+  .dropbtn {
+    width: 100%;
+    color: white;
+    background-color: #c2988b ;
+    font-size: 1.5em;
+    border: none;
+    cursor: pointer;
+    padding: 4%;
+    padding-left: 2%;
+    padding-bottom: 3%;
+    margin-top: 84%;
+    z-index: 7;
+  }
+  
+
+
+  
+  .dropdown {
+    width: 15%;
+    font-size: 1.5em;
+    position: absolute;
+    display: inline-block;
+    right: 0;
+    z-index: 7;
+  }
+  
+
+
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 100%;
+    z-index: 7;
+  }
+
+
+  
+  
+  .dropdown-content a {
+    background-color: #c2988b;
+    font-size: 1.5em;
+    color: white;
+    padding: 10% 12%;
+    text-decoration: none;
+    display: block;
+    z-index: 7;
+  }
+
+
+  
+  .dropdown-content a:hover {
+    font-style: italic;
+    background-color: #141E30;
+    z-index: 7;
+  }
+  
+
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+    opacity: 0.8;
+    z-index: 7;
+  }
+
+
+  
+  .dropdown:hover .dropbtn {
+    background-color: #c2988b;
+    z-index: 7;
+
+  }
+
+ /*fin menu*/
+
+
+/*image de fond page 1*/
+
+
+#contain img {
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: 2;
+
+}
+
+/*Boutons réseaux sociaux*/
+
+
+.reseaux {
+  float: left;
+  margin-top: 10%;
+  border-radius: 5%;
+ 
+  
+}
+
+
+.social {
+  display: inline;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  opacity: 0.8;
+  z-index: 7;
+  
+}
+
+
+.social img {
+  width: 50px;
+  height: 50px;
+  background-color: #141E30;
+  
+}
+
+.social img:hover{
+  background-color: mintcream;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+
+.fond_fb {
+  top: 2%;
+  
+}
+
+
+
+
+
+
+/*Carte du Jour*/
+
+
+
+#contain p {
+  text-align: center;
+
+}
+
+
+
+.caption {
+  border-radius: 2%;
+  float: left;
+  text-align: center;
+  display: table;
+  font-family: 'Playfair Display', serif;
+  font-size: 140%;
+  font-style: italic;
+  line-height: 100%;
+  width: 50%;
+  background-color: black;
+  color:white;
+  bottom: 10%;
+  padding: 3%;
+  margin-left: 5%;
+  margin-top: 20%;
+  margin-bottom: 20%;
+  z-index: 7;
+}
+
+
+/*Formulaire Réservations*/
+
+.form1{
+  display: inline;
+  justify-content: center;
+  width: 70%;
+  height: 90%;
+  font-size: 130%;
+  font-style: italic;
+  
+
+}
+
+.info-1 {
+  display: inline-block;
+  width: 100%;
+  
+  
+}    
+
+.text  {
+  width: 100%;
+}
+
+
+/*---*/
+
+
+/*Page 2-Recettes du jour */
+
+h1 { 
+  color: #141E30;
+  font-size: 200%;
+  width: 50%;
+  background-color:  #c2988b;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 23%;
+
+}
+
+
+
+/*Titre haut de pages*/
+
+
+h2 {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: #c2988b; 
+
+}
+
+/*---*/
+
+
+/* Page 2-Les recettes sous forme de boutons */
+
+.btn1 {
+  border: none;
+  margin-left: 38%;
+  border-radius: 2%;
+  background-color: #141E30;
+  cursor: pointer;
+  
+  
+}
+
+.btn1 p {
+  color: #c2988b;
+  font-size: 150%;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+
+
+}
+
+
+
+.btn2 {
+  border: none;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10%;
+  border-radius: 2%;
+  background-color: #141E30;
+  cursor: pointer;
+}
+
+.btn2 p {
+  color: #c2988b;
+  font-size: 150%;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+
+}
+
+
+
+.btn3 {
+  border: none;
+  margin: 0;
+  border-radius: 2%;
+  background-color: #141E30;
+  cursor: pointer;
+ 
+}
+
+
+.btn3 p {
+  color: #c2988b;
+  font-size: 150%;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+
+}
+
+
+
+.btn4 {
+  border: none;
+  margin-top: 10%;
+  margin-left: 40%;
+  margin-bottom: 30%;
+  border-radius: 2%;
+  background-color: #141E30;
+  cursor: pointer;
+
+}
+
+
+.btn4 p {
+  color: #c2988b;
+  font-size: 150%;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+
+}
+
+.drop-content p {
+  z-index: 1;
+}
+
+
+.drop .btn1:hover p {
+  display: block;
+  background-color: #c2988b;
+
+}
+
+
+/*Footer*/
+
+
+footer {
+  display: table-row;
+  width: 100%;
+  height: 1px;
+  background: #c2988b;
+  overflow: hidden;
+  padding: 60px 0 30px 0;
+}
+
+.content-footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  border-bottom: 1px solid #ccc;
+  font-size: 150%;
+}
+
+.content-footer img {
+  width: 40px;
+  height: 40px;
+}
+
+h3 {
+  text-align: center;
+
+}
+
+
+/*--*/
+
+
+
+/*Formulaire de contact*/
+
+
+
+form {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  height: 90%;
+  font-size: 130%;
+  font-style: italic;
+  margin-top: 20%;
+  margin-left: 15%;
+  margin-right: 25%;
+  color: aliceblue;
+  margin-bottom: 20%;
+    
+}
+
+
+
+
+form h2 {
+  font-size: 250%;
+  font-style: italic;
+  
+
+}
+
+::placeholder {
+  font-style: italic;
+}
+
+:required {
+  border-color: red;
+  background-color: white;
+}
+
+.form-group1 {
+  display: inline;
+  margin-right: 5%;
+  
+  
+}
+
+.form-control {
+  width: 100%;
+  height: 50px;
+ 
+}
+
+.form-group3 .form-control {
+  height: 200px;
+  line-height: normal;
+
+}
+
+.bouttons {
+  margin-left: 30%;
+  
+  
+}
+  
+.envoyer {
+  margin-top: 5%;
+  font-size: 120%;
+  width: 50%;
+  height: 40%;
+  border-radius: 3%;
+  color: white;
+  background-color: #c2988b;
+  border: none;
+
+
+
+}
+
+.envoyer:hover {
+  opacity: 0.8;
+  color: #360033;
+  cursor: pointer;
+  
+}
+
+
+.reset {
+  margin-top: 8%;
+  font-size: 120%;
+  background-color: #4e164b;
+  color: white;
+  border: none;
+  border-radius: 3%;
+  height: 50%;
+  width: 50%;
+
+
+
+}
+
+.reset:hover {
+  opacity: 0.8;
+  color: #c2988b;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+/*----*/

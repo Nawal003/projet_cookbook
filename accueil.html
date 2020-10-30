@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="./accueil.css">
+
+</head>
+
+
+
+<body>
+
+
+    <header>
+        <div class="nav">
+
+
+            <div class="dropdown">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                    <a href="./accueil.html">Accueil</a>
+                    <a href="./recettes.html">Recettes du Jour</a>
+                    <a href="./lechef.html">Mister Cuisto</a>
+                    <a href="./nosproduits.html">Nos produits</a>
+                    <a href="./livredor.html">Livre d'Or</a>
+                    <a href="./formulairecontact.html">Réservez</a>
+                    <a href="./formulairecontact.html">Formulaire de contact</a>
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="bandeau">
+
+        <h2>The CookBook Restaurant</h2>
+        <p>
+            <marquee behaviour="alternate" direction="left" scrollamount="15">Chaque jour de nouvelles recettes créées
+                grâce à nos produits locaux. Reservez en ligne ou par téléphone pour les découvrir!<button
+                    class="reservation">Reservez</button></marquee>
+        </p>
+
+    </div>
+
+
+    <div class="reseaux">
+        <a href="#" class="social"><img src="./datas/fb.png" alt="facebook" />
+            <div class="fond_fb"></div>
+        </a>
+        <a href="#" class="social"><img src="datas/insta.png" alt="instagram" />
+            <div class="fond_insta"></div>
+        </a>
+        <a href="#" class="social"><img src="datas/gmail.png" alt="gmail" />
+            <div class="fond_gmail"></div>
+        </a>
+        <a href="0654456789" class="social"><img src="datas/tel.png" alt="telephone" />
+            <div class="fond_tel"></div>
+        </a>
+
+
+
+    </div>
+
+
+
+
+
+
+    <div id="contain">
+        <img src="./datas/restau.jpg" alt="">
+
+        <p class="caption"> <strong>LA CARTE DU JOUR</strong><br />
+            <br />
+            <strong>ENTRÉE</strong><br />
+            <br />
+            Houmous <br />
+            <br />
+            <strong>PLAT AU CHOIX</strong><br />
+            <br />
+            Carré d’agneau de lait des Pyrénées<br />
+            <br />
+            Ou
+            <br />
+            <br />
+            Flan aux courgettes
+            <br />
+            <br />
+            <strong>DESSERT</strong>
+            <br />
+            <br />
+            Cheesecake <br />
+
+
+        </p>
+    </div>
+
+
+
+
+    <form action="html/reservationinsert.php" method="POST" id="form">
+        <div class="form1">
+            <h2>Réservation</h2>
+
+            <div class="info-1">
+                <label for="lname">Nom</label>
+                <input type="text" class="form-control" placeholder="tapez votre nom" id="nom" name="nom" required>
+
+
+
+                <label for="fname">Prénom</label>
+                <input type="text" class="form-control" placeholder="tapez votre prénom" id="prenom" name="prenom"
+                    required>
+
+                </br>
+
+                <label for="email">Email</label>
+                <input type="text" class="form-control" placeholder="Ex: mistercuisto@contact.com" id="email"
+                    name="email" required>
+
+                </br>
+
+                <label for="tel">Numéro de téléphone</label>
+                <input type="tel" class="form-control" placeholder="Entrez votre numéro de Téléphone" id="tel"
+                    name="tel" required>
+            </div>
+
+
+            <div class="info-2">
+                <label for="number">Nombre de personne</label>
+                <input type="number" class="form-control" placeholder="selectionner le nombre de personne, Max 6 pers."
+                    id="number" name="number" min="1" max="6" required>
+
+            </div>
+
+            <label for="date">Date à laquelle vous voulez réserver</label>
+            <input type="date" class="form-control" id="date" name="date" required>
+
+            <label for="time">Heure de réservation</label>
+            <input type="time" class="form-control" id="time" name="time" required>
+
+
+
+
+            <div class="text">
+                <label for="info-sup">Informations supplémentaire</label>
+                <textarea type="text" class="form-control" placeholder="Informations supplémentaire (allergies,...etc)"
+                    id="infosup" name="infosup" rows="15"></textarea>
+
+            </div>
+
+            <div class="bouttons">
+                <button type="submit" class="envoyer">Envoyer</button>
+                <button type="reset" class="reset">Reset</button>
+
+            </div>
+
+
+        </div>
+
+
+
+    </form>
+
+
+
+    <footer>
+        <div class="content-footer">
+            <div class="phone"><img src="datas/tel2.png" alt="telephone">
+                <h4>Téléphone</h4>
+                <p>06 08 08 09 09</p>
+            </div>
+            <div class="mail"><img src="./datas/mail2.png" alt="mail">
+                <h4>Email</h4>
+                <p>cookbook@gmail.com</p>
+            </div>
+            <div class="local"><img src="./datas/local2.png" alt="localisation">
+                <h4>Adresse</h4>
+                <p>5 Rue Carnot - Pau</p>
+            </div>
+        </div>
+        <h3 class="title">&copy; The Cookbook Restaurant | @Nawal</h3>
+
+    </footer>
+
+</body>
+
+
+
+
+
+</html>
